@@ -1,0 +1,21 @@
+uuid: 026195d4-af05-4040-9929-ca2ddc378c16
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_ppub
+    - node.type.adjunct
+  module:
+    - datetime_range
+id: node.adjunct.date_ppub
+field_name: date_ppub
+entity_type: node
+bundle: adjunct
+label: date-ppub
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

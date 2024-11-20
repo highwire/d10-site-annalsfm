@@ -1,0 +1,22 @@
+uuid: 7dfc6a98-59b6-4fe2-9e43-d0f52e2072f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_abbrv_title
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.journal_abbrv_title
+field_name: journal_abbrv_title
+entity_type: node
+bundle: journal_comment
+label: journal-abbrv-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

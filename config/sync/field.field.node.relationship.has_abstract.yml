@@ -1,0 +1,21 @@
+uuid: 9a286821-ba30-4351-8296-8b4262d7e91b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_abstract
+    - node.type.relationship
+id: node.relationship.has_abstract
+field_name: has_abstract
+entity_type: node
+bundle: relationship
+label: has-abstract
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

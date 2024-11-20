@@ -1,0 +1,22 @@
+uuid: 55136325-d92a-472b-97d6-b4075f7b42b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pubmed_id
+    - node.type.journal
+  module:
+    - text
+id: node.journal.pubmed_id
+field_name: pubmed_id
+entity_type: node
+bundle: journal
+label: pubmed-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

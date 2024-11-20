@@ -1,0 +1,19 @@
+uuid: 77c2b161-d0b9-4216-a51d-717b5b7be6b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.extract_policy
+    - node.type.media
+id: node.media.extract_policy
+field_name: extract_policy
+entity_type: node
+bundle: media
+label: 'Extract Policy'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

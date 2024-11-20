@@ -1,0 +1,22 @@
+uuid: dc153d72-6eff-479b-8c6d-93fbcd9331ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.ec_role
+    - node.type.media
+  module:
+    - text
+id: node.media.ec_role
+field_name: ec_role
+entity_type: node
+bundle: media
+label: ec-role
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

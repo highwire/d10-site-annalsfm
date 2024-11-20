@@ -1,0 +1,16 @@
+uuid: e50aac3b-0d3b-4ea6-8113-0c7b91589cc1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.eletter_moderator
+  module:
+    - user
+_core:
+  default_config_hash: k6I01jSYwK4kH2jc0sHBmXOu91Emdifd2A6zvcCdHjM
+id: user_remove_role_action.eletter_moderator
+label: 'Remove the eletter moderator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: eletter_moderator

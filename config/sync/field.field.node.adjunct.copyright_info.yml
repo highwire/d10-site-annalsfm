@@ -1,0 +1,22 @@
+uuid: c3fc5175-1d61-4ace-a81f-2e2043787e50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.copyright_info
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.copyright_info
+field_name: copyright_info
+entity_type: node
+bundle: adjunct
+label: copyright-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

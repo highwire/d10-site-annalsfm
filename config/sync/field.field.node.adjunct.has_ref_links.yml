@@ -1,0 +1,21 @@
+uuid: 6c3bafa0-bb4b-433a-aab3-a9c05062887d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_ref_links
+    - node.type.adjunct
+id: node.adjunct.has_ref_links
+field_name: has_ref_links
+entity_type: node
+bundle: adjunct
+label: has-ref-links
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

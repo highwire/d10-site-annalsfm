@@ -1,0 +1,22 @@
+uuid: bda84967-37b7-4869-9935-60b4e2d6a0c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.atom_type
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.atom_type
+field_name: atom_type
+entity_type: node
+bundle: adjunct
+label: atom-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

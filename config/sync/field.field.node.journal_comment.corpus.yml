@@ -1,0 +1,19 @@
+uuid: 58c3796a-d1c6-4045-bdad-54b016e4e535
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.corpus
+    - node.type.journal_comment
+id: node.journal_comment.corpus
+field_name: corpus
+entity_type: node
+bundle: journal_comment
+label: Corpus
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,22 @@
+uuid: 6c9e5bf9-a20f-40f4-ae8a-d183a90cb9f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.fpage
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.fpage
+field_name: fpage
+entity_type: node
+bundle: journal_comment
+label: fpage
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

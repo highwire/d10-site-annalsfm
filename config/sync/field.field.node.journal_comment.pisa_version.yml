@@ -1,0 +1,22 @@
+uuid: 7807c8ea-7b0a-43a5-a4e4-d35f0a63a299
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.pisa_version
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.pisa_version
+field_name: pisa_version
+entity_type: node
+bundle: journal_comment
+label: pisa-version
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

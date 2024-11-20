@@ -1,0 +1,22 @@
+uuid: 15f72ee7-2c18-47b2-abd7-81da27016047
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.fpage
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.fpage
+field_name: fpage
+entity_type: node
+bundle: adjunct
+label: fpage
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

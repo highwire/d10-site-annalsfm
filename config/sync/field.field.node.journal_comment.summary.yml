@@ -1,0 +1,22 @@
+uuid: c7fe2055-70c5-4d67-b6ba-d8dda98780cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.summary
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.summary
+field_name: summary
+entity_type: node
+bundle: journal_comment
+label: summary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,11 @@
+uuid: 6ac41160-8440-4dc5-b88d-aefc96e3baa5
+langcode: en
+status: true
+dependencies: {  }
+name: journal_issue
+type: journal_issue
+description: 'Auto generated HighWire content type for journal-issue'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

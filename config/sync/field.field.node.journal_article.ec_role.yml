@@ -1,0 +1,22 @@
+uuid: bad921d1-32e1-4aa8-9ed8-9c727f9c0270
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.ec_role
+    - node.type.journal_article
+  module:
+    - text
+id: node.journal_article.ec_role
+field_name: ec_role
+entity_type: node
+bundle: journal_article
+label: ec-role
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

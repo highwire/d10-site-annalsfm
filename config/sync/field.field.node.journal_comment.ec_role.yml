@@ -1,0 +1,22 @@
+uuid: c99593bd-eea9-4e29-91ef-9ac0ab4c38a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.ec_role
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.ec_role
+field_name: ec_role
+entity_type: node
+bundle: journal_comment
+label: ec-role
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

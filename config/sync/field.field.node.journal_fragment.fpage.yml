@@ -1,0 +1,22 @@
+uuid: 9d853967-d64b-4567-9e45-0a7b956cccfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.fpage
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.fpage
+field_name: fpage
+entity_type: node
+bundle: journal_fragment
+label: fpage
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

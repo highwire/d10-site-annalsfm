@@ -1,0 +1,21 @@
+uuid: 146f807e-7da2-432d-883f-6d34ae6e3083
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_figures
+    - node.type.adjunct
+id: node.adjunct.has_figures
+field_name: has_figures
+entity_type: node
+bundle: adjunct
+label: has-figures
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

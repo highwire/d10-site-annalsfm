@@ -1,0 +1,22 @@
+uuid: 9866576b-c68c-4a86-b479-af780d863792
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.georef_id
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.georef_id
+field_name: georef_id
+entity_type: node
+bundle: adjunct
+label: georef-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

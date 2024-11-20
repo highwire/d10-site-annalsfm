@@ -1,0 +1,9 @@
+uuid: c5c63b15-0995-4bf0-86b4-be77a74e2c05
+langcode: en
+status: true
+dependencies: {  }
+id: institution
+label: 'HighWire User - Institution'
+weight: 13
+is_admin: null
+permissions: {  }

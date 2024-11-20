@@ -1,0 +1,22 @@
+uuid: 47e34244-ff69-4ab1-b54b-8b9069e73fb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords_data
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.keywords_data
+field_name: keywords_data
+entity_type: node
+bundle: journal_comment
+label: keywords-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

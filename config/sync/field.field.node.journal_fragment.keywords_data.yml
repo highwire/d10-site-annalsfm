@@ -1,0 +1,22 @@
+uuid: a94ec34b-edf0-4ec2-9324-3f5d79ee47e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords_data
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.keywords_data
+field_name: keywords_data
+entity_type: node
+bundle: journal_fragment
+label: keywords-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

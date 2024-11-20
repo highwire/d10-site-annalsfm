@@ -1,0 +1,21 @@
+uuid: 0e249567-c8b2-4199-be61-5b406eb7ad30
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_accepted
+    - node.type.journal_article
+  module:
+    - datetime_range
+id: node.journal_article.date_accepted
+field_name: date_accepted
+entity_type: node
+bundle: journal_article
+label: date-accepted
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
