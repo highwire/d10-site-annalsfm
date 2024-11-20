@@ -1,0 +1,22 @@
+uuid: 13d165d9-fd47-4248-b1a6-a31496f7fee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.summary
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.summary
+field_name: summary
+entity_type: node
+bundle: adjunct
+label: summary
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

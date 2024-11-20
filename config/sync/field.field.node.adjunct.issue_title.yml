@@ -1,0 +1,22 @@
+uuid: e75d405c-f05a-4f72-a3d6-999af4496255
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_title
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.issue_title
+field_name: issue_title
+entity_type: node
+bundle: adjunct
+label: issue-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

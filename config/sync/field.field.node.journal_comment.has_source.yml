@@ -1,0 +1,21 @@
+uuid: bb55824a-f9e1-4410-9d41-57fceac01fbb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_source
+    - node.type.journal_comment
+id: node.journal_comment.has_source
+field_name: has_source
+entity_type: node
+bundle: journal_comment
+label: has-source
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

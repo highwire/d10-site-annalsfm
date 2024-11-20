@@ -1,0 +1,21 @@
+uuid: 46573cd5-3b6d-41c1-82d5-2bfb4119d77d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_early_release
+    - node.type.adjunct
+id: node.adjunct.has_early_release
+field_name: has_early_release
+entity_type: node
+bundle: adjunct
+label: has-early-release
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

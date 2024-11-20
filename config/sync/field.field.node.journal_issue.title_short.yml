@@ -1,0 +1,22 @@
+uuid: 9484a1a8-b517-4dd6-a071-3d2b7b7d7114
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.title_short
+    - node.type.journal_issue
+  module:
+    - text
+id: node.journal_issue.title_short
+field_name: title_short
+entity_type: node
+bundle: journal_issue
+label: title-short
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

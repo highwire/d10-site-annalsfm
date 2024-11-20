@@ -1,0 +1,23 @@
+uuid: 8c80202c-ac3a-46b5-b0bf-7f952dcb4c8f
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.pdf_extract_img
+field_name: pdf_extract_img
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

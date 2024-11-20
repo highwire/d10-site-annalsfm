@@ -1,0 +1,22 @@
+uuid: ebe9001d-455e-49e0-83c5-3af4ca87159b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.license_info
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.license_info
+field_name: license_info
+entity_type: node
+bundle: relationship
+label: license-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

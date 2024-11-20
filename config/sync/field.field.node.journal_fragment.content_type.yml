@@ -1,0 +1,22 @@
+uuid: 79ff3beb-a38a-483c-9c5e-4122ec80ee25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.content_type
+    - node.type.journal_fragment
+  module:
+    - text
+id: node.journal_fragment.content_type
+field_name: content_type
+entity_type: node
+bundle: journal_fragment
+label: content-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,27 @@
+uuid: 19671745-3a01-4d49-b49e-b35dab6e99b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.enclosures
+    - node.type.adjunct
+  module:
+    - file
+id: node.adjunct.enclosures
+field_name: enclosures
+entity_type: node
+bundle: adjunct
+label: enclosures
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

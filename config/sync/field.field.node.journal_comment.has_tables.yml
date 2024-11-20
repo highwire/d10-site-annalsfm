@@ -1,0 +1,21 @@
+uuid: ce862567-abdd-4969-b1e0-5cfcf1f3b6fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_tables
+    - node.type.journal_comment
+id: node.journal_comment.has_tables
+field_name: has_tables
+entity_type: node
+bundle: journal_comment
+label: has-tables
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

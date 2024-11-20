@@ -1,0 +1,22 @@
+uuid: 11ea04b6-7f6e-4f59-a186-07ed6c15ca19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.overline
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.overline
+field_name: overline
+entity_type: node
+bundle: journal_comment
+label: overline
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: b18033bf-9904-4bd9-adb2-7842014e36e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.subtitle
+    - node.type.media
+  module:
+    - text
+id: node.media.subtitle
+field_name: subtitle
+entity_type: node
+bundle: media
+label: subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,39 @@
+uuid: 401b35fb-e454-4d6b-800a-3004bdfffd41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.authors_full_name
+    - node.type.adjunct
+  module:
+    - double_field
+id: node.adjunct.authors_full_name
+field_name: authors_full_name
+entity_type: node
+bundle: adjunct
+label: authors-full-name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

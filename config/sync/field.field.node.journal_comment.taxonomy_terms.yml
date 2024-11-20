@@ -1,0 +1,21 @@
+uuid: 74dd046b-943d-44d2-9155-4fbec697c3e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.taxonomy_terms
+    - node.type.journal_comment
+id: node.journal_comment.taxonomy_terms
+field_name: taxonomy_terms
+entity_type: node
+bundle: journal_comment
+label: taxonomy-terms
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

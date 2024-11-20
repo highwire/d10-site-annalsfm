@@ -1,0 +1,39 @@
+uuid: 77955012-e66b-4f2b-af74-acfaf89d5e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords
+    - node.type.journal_comment
+  module:
+    - double_field
+id: node.journal_comment.keywords
+field_name: keywords
+entity_type: node
+bundle: journal_comment
+label: keywords
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

@@ -1,0 +1,22 @@
+uuid: 7f6420da-2817-4299-8d11-7156e1330e51
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.section_data
+    - node.type.media
+  module:
+    - text
+id: node.media.section_data
+field_name: section_data
+entity_type: node
+bundle: media
+label: section-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

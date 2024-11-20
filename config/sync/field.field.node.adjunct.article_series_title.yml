@@ -1,0 +1,22 @@
+uuid: 1faa2b89-2a0d-41b2-baec-55429e47193e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.article_series_title
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.article_series_title
+field_name: article_series_title
+entity_type: node
+bundle: adjunct
+label: article-series-title
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

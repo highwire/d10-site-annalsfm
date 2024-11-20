@@ -1,0 +1,22 @@
+uuid: 1a15fecc-8511-454a-8759-ae1f73f9b6fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords_data
+    - node.type.relationship
+  module:
+    - text
+id: node.relationship.keywords_data
+field_name: keywords_data
+entity_type: node
+bundle: relationship
+label: keywords-data
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

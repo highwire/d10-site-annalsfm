@@ -1,0 +1,21 @@
+uuid: fba359a9-947c-4949-9aee-d5acb43a81e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_epreprint
+    - node.type.journal_comment
+  module:
+    - datetime_range
+id: node.journal_comment.date_epreprint
+field_name: date_epreprint
+entity_type: node
+bundle: journal_comment
+label: date-epreprint
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
