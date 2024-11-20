@@ -1,0 +1,22 @@
+uuid: becc5345-0408-4616-bb7b-0ab5cfec5ac9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.abstract_type
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.abstract_type
+field_name: abstract_type
+entity_type: node
+bundle: journal_comment
+label: abstract-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

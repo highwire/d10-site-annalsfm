@@ -1,0 +1,11 @@
+uuid: 73f82502-c7c1-4427-acc5-09a0c3e38cd8
+langcode: en
+status: true
+dependencies: {  }
+name: journal_comment
+type: journal_comment
+description: 'Auto generated HighWire content type for journal-comment'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

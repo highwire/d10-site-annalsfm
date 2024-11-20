@@ -1,0 +1,22 @@
+uuid: e9f90db1-071b-4342-acda-6d0185a9e18d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.issue_toc
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.issue_toc
+field_name: issue_toc
+entity_type: node
+bundle: journal_comment
+label: issue-toc
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

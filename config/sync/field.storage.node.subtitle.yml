@@ -1,0 +1,19 @@
+uuid: 1b5fe6c0-39f2-40f1-b6be-389eef6d6a46
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.subtitle
+field_name: subtitle
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

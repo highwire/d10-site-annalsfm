@@ -1,0 +1,21 @@
+uuid: 41921ac1-1161-4e56-a2e3-17c1e034b8da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_accepted
+    - node.type.adjunct
+  module:
+    - datetime_range
+id: node.adjunct.date_accepted
+field_name: date_accepted
+entity_type: node
+bundle: adjunct
+label: date-accepted
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

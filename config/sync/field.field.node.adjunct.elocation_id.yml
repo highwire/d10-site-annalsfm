@@ -1,0 +1,22 @@
+uuid: 4d24547f-8acd-4965-9dbb-8de8153230f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.elocation_id
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.elocation_id
+field_name: elocation_id
+entity_type: node
+bundle: adjunct
+label: elocation-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 9f5c9928-f953-4c8d-9ad6-bc560a786a41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.col_url
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.col_url
+field_name: col_url
+entity_type: node
+bundle: journal_comment
+label: col-url
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: 3a073c05-6f38-4d63-9aad-4429d95c3c5a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.content_type
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.content_type
+field_name: content_type
+entity_type: node
+bundle: journal_comment
+label: content-type
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

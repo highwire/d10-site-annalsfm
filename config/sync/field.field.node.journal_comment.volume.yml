@@ -1,0 +1,22 @@
+uuid: 1faabe50-e75e-4dfd-b79a-ac33b271de5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.volume
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.volume
+field_name: volume
+entity_type: node
+bundle: journal_comment
+label: volume
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

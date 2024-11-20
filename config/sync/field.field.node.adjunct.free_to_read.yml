@@ -1,0 +1,21 @@
+uuid: df58226e-71a5-48ec-b3fc-49e097c79d5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.free_to_read
+    - node.type.adjunct
+id: node.adjunct.free_to_read
+field_name: free_to_read
+entity_type: node
+bundle: adjunct
+label: free-to-read
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

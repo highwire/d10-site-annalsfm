@@ -1,0 +1,22 @@
+uuid: e64af67e-e533-44b6-8fb8-e4fc5fd1928b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.subtitle
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.subtitle
+field_name: subtitle
+entity_type: node
+bundle: journal_comment
+label: subtitle
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

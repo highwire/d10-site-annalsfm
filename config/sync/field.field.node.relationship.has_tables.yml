@@ -1,0 +1,21 @@
+uuid: ce37aff9-1347-4405-8711-9872fef7530a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_tables
+    - node.type.relationship
+id: node.relationship.has_tables
+field_name: has_tables
+entity_type: node
+bundle: relationship
+label: has-tables
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

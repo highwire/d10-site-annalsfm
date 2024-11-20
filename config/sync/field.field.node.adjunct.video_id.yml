@@ -1,0 +1,22 @@
+uuid: 8288e9d0-e603-4ef5-abeb-b845a8578aa2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.video_id
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.video_id
+field_name: video_id
+entity_type: node
+bundle: adjunct
+label: video-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

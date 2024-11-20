@@ -1,0 +1,21 @@
+uuid: 7b827472-9e70-4e4e-93d9-5e1a7d5f5883
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_revision
+    - node.type.relationship
+  module:
+    - datetime_range
+id: node.relationship.date_revision
+field_name: date_revision
+entity_type: node
+bundle: relationship
+label: date-revision
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

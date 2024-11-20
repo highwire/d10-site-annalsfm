@@ -1,0 +1,22 @@
+uuid: 33e24cbf-aca0-4af9-9d98-822078cef0cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.bookvault_skuid
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.bookvault_skuid
+field_name: bookvault_skuid
+entity_type: node
+bundle: journal_comment
+label: bookvault-skuid
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

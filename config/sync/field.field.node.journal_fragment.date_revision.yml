@@ -1,0 +1,21 @@
+uuid: 05d32d29-1dad-45b9-ab8f-4898b45a9ed5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_revision
+    - node.type.journal_fragment
+  module:
+    - datetime_range
+id: node.journal_fragment.date_revision
+field_name: date_revision
+entity_type: node
+bundle: journal_fragment
+label: date-revision
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

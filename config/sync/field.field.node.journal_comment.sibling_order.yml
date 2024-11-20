@@ -1,0 +1,23 @@
+uuid: ebaa3f67-9853-4fb9-a8c9-1399585ba4d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.sibling_order
+    - node.type.journal_comment
+id: node.journal_comment.sibling_order
+field_name: sibling_order
+entity_type: node
+bundle: journal_comment
+label: sibling-order
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

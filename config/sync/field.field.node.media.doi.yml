@@ -1,0 +1,22 @@
+uuid: a0148ab6-de1a-40fd-9a08-ad64a1bc7e15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.doi
+    - node.type.media
+  module:
+    - text
+id: node.media.doi
+field_name: doi
+entity_type: node
+bundle: media
+label: doi
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

@@ -1,0 +1,21 @@
+uuid: 94214e12-8565-4918-ba43-cc0db13b2131
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.parent_volume
+    - node.type.relationship
+id: node.relationship.parent_volume
+field_name: parent_volume
+entity_type: node
+bundle: relationship
+label: parent-volume
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

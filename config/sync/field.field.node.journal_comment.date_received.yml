@@ -1,0 +1,21 @@
+uuid: c8953058-5cb5-4057-9aa2-7c137d81ba91
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_received
+    - node.type.journal_comment
+  module:
+    - datetime_range
+id: node.journal_comment.date_received
+field_name: date_received
+entity_type: node
+bundle: journal_comment
+label: date-received
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

@@ -1,0 +1,22 @@
+uuid: e00fc8b4-9d88-40b8-9b27-dab350bb968a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.video_id
+    - node.type.journal_volume
+  module:
+    - text
+id: node.journal_volume.video_id
+field_name: video_id
+entity_type: node
+bundle: journal_volume
+label: video-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

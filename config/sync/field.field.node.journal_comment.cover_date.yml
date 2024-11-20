@@ -1,0 +1,22 @@
+uuid: 7d0c83e6-a1b3-4ead-bb40-cc8e9f1154af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.cover_date
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.cover_date
+field_name: cover_date
+entity_type: node
+bundle: journal_comment
+label: cover-date
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

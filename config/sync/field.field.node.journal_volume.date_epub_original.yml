@@ -1,0 +1,21 @@
+uuid: 8e196a18-85f8-4333-93c5-d71781e61a6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_epub_original
+    - node.type.journal_volume
+  module:
+    - datetime_range
+id: node.journal_volume.date_epub_original
+field_name: date_epub_original
+entity_type: node
+bundle: journal_volume
+label: date-epub-original
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

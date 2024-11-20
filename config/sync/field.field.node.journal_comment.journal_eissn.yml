@@ -1,0 +1,22 @@
+uuid: 6008845f-6ca6-4745-984e-5ed2a677e286
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.journal_eissn
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.journal_eissn
+field_name: journal_eissn
+entity_type: node
+bundle: journal_comment
+label: journal-eissn
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

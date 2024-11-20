@@ -1,0 +1,19 @@
+uuid: cf48cf6f-8ac6-44d8-b818-8a2cc2d614ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.journal_abbrv_title
+field_name: journal_abbrv_title
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: true

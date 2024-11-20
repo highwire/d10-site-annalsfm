@@ -1,0 +1,21 @@
+uuid: b2d811e0-3ad0-4534-858e-fa9976eef39b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.next_atom
+    - node.type.journal_comment
+id: node.journal_comment.next_atom
+field_name: next_atom
+entity_type: node
+bundle: journal_comment
+label: next-atom
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

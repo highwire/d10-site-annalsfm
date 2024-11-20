@@ -1,0 +1,22 @@
+uuid: 300acd06-d20f-4a04-8fbb-0009fe5d9c95
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.publisher_id
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.publisher_id
+field_name: publisher_id
+entity_type: node
+bundle: journal_comment
+label: publisher-id
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

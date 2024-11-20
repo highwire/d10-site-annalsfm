@@ -1,0 +1,22 @@
+uuid: f861346d-2375-4324-97d0-a00ca44e8278
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.publisher_name
+    - node.type.adjunct
+  module:
+    - text
+id: node.adjunct.publisher_name
+field_name: publisher_name
+entity_type: node
+bundle: adjunct
+label: publisher-name
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

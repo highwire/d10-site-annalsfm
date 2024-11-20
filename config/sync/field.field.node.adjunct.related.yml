@@ -1,0 +1,21 @@
+uuid: 09878047-5db2-4531-a496-c05e07271fd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.related
+    - node.type.adjunct
+id: node.adjunct.related
+field_name: related
+entity_type: node
+bundle: adjunct
+label: related
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 718e448a-67c6-4a78-be51-b82092d54e21
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.has_source
+    - node.type.adjunct
+id: node.adjunct.has_source
+field_name: has_source
+entity_type: node
+bundle: adjunct
+label: has-source
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

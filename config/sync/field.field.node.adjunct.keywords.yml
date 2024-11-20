@@ -1,0 +1,39 @@
+uuid: b05cdee9-5edc-4205-93d2-d3b8b17594f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.keywords
+    - node.type.adjunct
+  module:
+    - double_field
+id: node.adjunct.keywords
+field_name: keywords
+entity_type: node
+bundle: adjunct
+label: keywords
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  first:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+  second:
+    label: ''
+    list: false
+    allowed_values: {  }
+    max: null
+    min: null
+    required: true
+    on_label: 'On'
+    off_label: 'Off'
+field_type: double_field

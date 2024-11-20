@@ -1,0 +1,22 @@
+uuid: 4c731d4c-bec7-4c0c-a8ce-1f7a68db8b15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.license_info
+    - node.type.journal_comment
+  module:
+    - text
+id: node.journal_comment.license_info
+field_name: license_info
+entity_type: node
+bundle: journal_comment
+label: license-info
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

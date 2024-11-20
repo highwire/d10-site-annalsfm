@@ -1,0 +1,10 @@
+uuid: fbe932c5-474d-459f-b6e8-bc3866e52100
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: PcIdTFSvwyBKPOE9sprGfTYZVPbEqlmJWeaGomKxoV0
+id: highwire-p13n-manage-primary
+label: 'HighWire Personalization: Manage (Primary)'
+description: 'Primary menu links for the HighWire Personalization admin pages.'
+locked: false

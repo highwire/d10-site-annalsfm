@@ -1,0 +1,27 @@
+uuid: ce8a8c30-9072-4e2d-961b-79e8212c351b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.variant_table_of_contents_pdf
+    - node.type.adjunct
+  module:
+    - file
+id: node.adjunct.variant_table_of_contents_pdf
+field_name: variant_table_of_contents_pdf
+entity_type: node
+bundle: adjunct
+label: variant-table-of-contents-pdf
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

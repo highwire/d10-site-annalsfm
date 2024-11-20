@@ -1,0 +1,21 @@
+uuid: e21cb10e-2b30-4bc7-b0aa-5fe6bd286838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_released
+    - node.type.adjunct
+  module:
+    - datetime
+id: node.adjunct.date_released
+field_name: date_released
+entity_type: node
+bundle: adjunct
+label: date-released
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

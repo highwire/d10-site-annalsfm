@@ -1,0 +1,21 @@
+uuid: f068b096-e7c7-4c28-b2ac-b4d793eef512
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.date_revision
+    - node.type.adjunct
+  module:
+    - datetime_range
+id: node.adjunct.date_revision
+field_name: date_revision
+entity_type: node
+bundle: adjunct
+label: date-revision
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange
